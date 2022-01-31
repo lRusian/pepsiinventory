@@ -1,0 +1,7 @@
+com\pepsidev\pepsiinventory\Pepsi.class
+com\pepsidev\pepsiinventory\util\FileConfig.class
+com\pepsidev\pepsiinventory\util\ItemMaker.class
+com\pepsidev\pepsiinventory\listener\InventoryListener.class
+com\pepsidev\pepsiinventory\util\CC.class
+com\pepsidev\pepsiinventory\command\InventoryOpenCommand.class
+com\pepsidev\pepsiinventory\util\ItemMaker$SkullType.class

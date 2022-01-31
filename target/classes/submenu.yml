@@ -1,0 +1,194 @@
+HOTBARS: 1
+INVENTORY-NAME: '&dSub Menu'
+FILL-ITEM:
+  MATERIAL: STAINED_GLASS_PANE
+  DATA: 5
+SUB:
+  op:
+    INV:
+      SLOT: 1
+      NAME: "&dSubMenu1"
+    ITEMS:
+      1:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+      2:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+  broadcast:
+    INV:
+      SLOT: 1
+      NAME: "&dSubMenu2"
+    ITEMS:
+      1:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+      2:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+  player:
+    INV:
+      SLOT: 1
+      NAME: "&dSubMenu3"
+    ITEMS:
+      1:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+      2:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+  give:
+    INV:
+      SLOT: 1
+      NAME: "&dSubMenu4"
+    ITEMS:
+      1:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'
+      2:
+        ENABLE: true
+        SLOT: 1
+        CONFIGURATION:
+          COMMANDS: true
+        ITEM:
+          MATERIAl: DIAMOND_BLOCK
+          DATA: 0
+          AMOUNT: 64
+        DISPLAYNAME: '&d&lgive OP'
+        PRICE: 500
+        LORES:
+          DEFAULT:
+            - '&6&lPRICE &e&l<product_price>'
+          PUCHASED:
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+        COMMANDS:
+          - '[console] op <player_name>'

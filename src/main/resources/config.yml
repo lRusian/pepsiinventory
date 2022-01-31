@@ -1,0 +1,29 @@
+crystal:
+  enabled: true
+  material: STAINED_GLASS_PANE
+  data: 5
+
+menu:
+  name: '&8Space Coins Shop'
+  rows: 4
+  category:
+    Test1:
+      material: CHEST
+      data: 0
+      amount: 1
+      slot: 23
+      name: '&6&lTest-01'
+      lore:
+        - '&7&m---------------------'
+        - '&6Inventory test of Pepsi Development (https://discord.gg/MbTajyDUkU)'
+        - '&7&m---------------------'
+    Test2:
+      material: PAPER
+      data: 0
+      amount: 1
+      slot: 21
+      name: '&6&lTest-02'
+      lore:
+        - '&7&m------------------------------'
+        - '&6Inventory test of Pepsi Development (https://discord.gg/MbTajyDUkU)'
+        - '&7&m------------------------------'

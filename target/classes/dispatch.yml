@@ -1,0 +1,72 @@
+# COINS MESSAGES
+COINS:
+  VIEW:
+    - "&7&m------------------------------"
+    - "&f&lCOINS COUNT OF &d&l<player_name> &f&lIS &6$<player_balance>"
+    - "&7&m------------------------------"
+  GIVE: #<target_balance>, <player_name>
+    PLAYER:
+      - "&eAdded &5$<amount> &eto balance of &6<target_name>&e."
+      - "&eBalance of &6<target_name> &eis now &5$<target_setbalance>&e."
+      - "&eThe &6<target_name> &enew balance is &5$<target_setbalance>&e."
+    TARGET:
+      - "&7&m----------------------------------------"
+      - "&6<target_balance> &7(&e+<amount>&7)"
+      - "&eYou've been added &5<amount> &eto your account!"
+      - "&7&m----------------------------------------"
+    ALL:
+      MESSAGE:
+        - "&7&m----------------------------------------"
+        - "&6<target_balance> &7(&e+<amount>&7)"
+        - "&eYou've been added &5<amount> &eto your account!"
+        - "&eBy: &6<player_name>"
+        - "&7&m----------------------------------------"
+  SET:
+    PLAYER:
+      - "&eSetted &5$<amount> &eto balance of &6<target_name>&e."
+      - "&eBalance of &6<target_name> &eis now &5$<target_setbalance>&e."
+      - "&eOld balance of player is &5$<target_balance>&e."
+    TARGET:
+      - "&eYour balance &8(<target_balance>) &eCHANGED at &6<target_setbalance>"
+    ALL:
+      MESSAGE:
+        - "&7&m----------------------------------------"
+        - "&eYou old balance is &6<target_balance> &eNEW &7(&e+<target_setbalance>&7)"
+        - "&eBy: &6<player_name>"
+        - "&7&m----------------------------------------"
+  REMOVE:
+    PLAYER:
+      - "&cRemoved balance of &5<target_name> &8(<target_balance>)&c."
+    TARGET:
+      - "&cYour balance is cleared for admin"
+  RESET:
+    - "&cALL database cleared by &4ADMINISTRATOR&c."
+    - " "
+    - " "
+    - " "
+    - " "
+
+MESSAGE:
+  lack_player: "&6&lSpaceCoins &7➤ &cA player with that name was not found."
+  lack_amount: "&6&lSpaceCoins &7➤ &cThe number you entered is invalid."
+  failed: #CONSOLE IN SEND
+    base: "&6&lSpaceCoins &7➤ &cFailed to save base.yml!"
+    yaml: "&6&lSpaceCoins &7➤ &cThere was a problem loading YAML System of database!"
+    mysql: "&6&lSpaceCoins &7➤ &cFailed to create Coins table in MySQL server! Coins will not work!"
+    mysql_connect: "&6&lSpaceCoins &7➤ &cIssue adding a player to database. Is your MySQL Server running properly?"
+    mysql_check: "&6&lSpaceCoins &7➤ &cFailed to check coins Today. Is your MySQL Server running properly?"
+    mysql_reset: "&6&lSpaceCoins &7➤ &cFailed to reset coins Today. Is your MySQL Server running properly?"
+    mysql_set: "&6&lSpaceCoins &7➤ &cFailed to set coins Today. Is your MySQL Server running properly?"
+    connect:
+      - "&6&lSpaceCoins &7➤ &cIt is expected for the plugin to fail epically if this is your first time loading the plugin."
+      - "&6&lSpaceCoins &7➤ &cJust make sure you add the correct MySQL information in the config.yml, then restart your server. "
+      - "&6&lSpaceCoins &7➤ &cIf you still see errors like this one, then there is a problem."
+    sql:
+      - "&6&lSpaceCoins &7➤ &cSQL Authentication Failed!"
+      - "&6&lSpaceCoins &7➤ &cCoins will not work without either a) switching to YAML or b) providing proper MySQL credentials. Please make sure your settings are correct in config.yml"
+  correct:
+    mysql: "&6&lSpaceCoins &7➤ &aSuccessfully connected to MySQL Server."
+  has_puchased: "&6&lSpaceCoins &7➤ &aPurchase complete! Your new balance is: &5$<player_balance>"
+  puchased: "&6&lSpaceCoins &7➤ &cIt is not possible, you have already bought this item before"
+  no_balance: "&6&lSpaceCoins &7➤ &cYou don't have enough money to purchase this item!"
+

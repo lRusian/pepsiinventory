@@ -1,0 +1,226 @@
+change-item:
+  enabled: true
+  material: STAINED_GLASS_PANE
+  data: 5
+
+back:
+  enabled: true
+  material: ARROW
+  data: 0
+  slot: 19
+  name: '&cGo back'
+
+coins:
+  name: '&8Space Coins Shop'
+  rows: 4
+  category:
+    PlayerInfo:
+      sub_menu: false
+      player_info:
+        enabled: true
+        head: '%player_name%'
+      material: CHEST
+      data: 0
+      amount: 1
+      slot: 5
+      name: '&6&l%player_name% Info'
+      lore:
+        - '&7&m---------------------'
+        - '&eYou name &6<player_name>&7(&6<player_balance>&7)'
+        - '&7&m---------------------'
+    Ranks:
+      sub_menu: true
+      player_info:
+        enabled: false
+        head: '%player_name%'
+      material: PAPER
+      data: 0
+      amount: 1
+      slot: 21
+      name: '&6&lRanks'
+      lore:
+        - '&7&m------------------------------'
+        - 'Ranks Menu'
+        - '&7&m------------------------------'
+    Kits:
+      sub_menu: false
+      player_info:
+        enabled: false
+        head: '%player_name%'
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      amount: 1
+      slot: 23
+      name: '&6&lKits'
+      lore:
+        - '&7&m------------------------------'
+        - 'Kits menu'
+        - '&7&m------------------------------'
+    Punishments:
+      sub_menu: true
+      player_info:
+        enabled: false
+        head: '%player_name%'
+      material: CHEST
+      data: 0
+      amount: 1
+      slot: 25
+      name: '&6&lPunishments'
+      lore:
+        - '&7&m------------------------------'
+        - 'Punishment menu'
+        - '&7&m------------------------------'
+
+sub_menus:
+  Ranks:
+    title: '&8Ranks menu'
+    rows: 3
+    category:
+      '1':
+        enable: true
+        close: true
+        material: BUCKET
+        data: 0
+        amount: 1
+        slot: 12
+        name: '&9&lPepsi Rank'
+        price: 250
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] lp user <player_name> parent set Pepsi'
+          - '[broadcast] &6<player_name> buyed rank &9Pepsi'
+      '2':
+        enable: true
+        close: true
+        material: MILK_BUCKET
+        data: 0
+        amount: 1
+        slot: 13
+        name: '&9&lCobra Rank'
+        price: 500
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] lp user <player_name> parent set Pepsi'
+          - '[broadcast] &6<player_name> buyed rank &9Pepsi'
+      '3':
+        enable: true
+        close: true
+        material: LAVA_BUCKET
+        data: 0
+        amount: 1
+        slot: 14
+        name: '&9&lHighRoller Rank'
+        price: 750
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] lp user <player_name> parent set HighRoller'
+          - '[broadcast] &6<player_name> buyed rank &9HighRoller'
+      '4':
+        enable: true
+        close: true
+        material: WATER_BUCKET
+        data: 0
+        amount: 1
+        slot: 15
+        name: '&9&lFlame Rank'
+        price: 1000
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] lp user <player_name> parent set Flame'
+          - '[broadcast] &6<player_name> buyed rank &9Flame'
+      '5':
+        enable: true
+        close: true
+        material: GOLD_BLOCK
+        data: 0
+        amount: 1
+        slot: 16
+        name: '&9&lFaze Rank'
+        price: 1500
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] lp user <player_name> parent set Faze'
+          - '[broadcast] &6<player_name> buyed rank &9Faze'
+  Punishments:
+    title: '&8Punishments menu'
+    rows: 3
+    category:
+      '1':
+        enable: true
+        close: true
+        material: CHEST
+        data: 0
+        amount: 1
+        slot: 12
+        name: '&6&lUnban'
+        price: 100
+        lore:
+          available:
+            - '&7&m------------------------------'
+            - '&6&lPRICE &e&l<product_price>'
+            - '&7&m------------------------------'
+          puchased:
+            - '&7&m------------------------------'
+            - '&cYou have already bought the product'
+            - '&c&lyou cannot buy it again.'
+            - ''
+            - '&6&lCurrent price &e<product_price>'
+            - '&7&m------------------------------'
+        commands:
+          - '[console] unban <player_name>'
+          - '[broadcast] &6<player_name> buyed rank &6Unban'

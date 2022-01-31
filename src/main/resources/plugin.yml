@@ -1,0 +1,13 @@
+name: PepsiInventory
+version: 1.0-SNAPSHOT
+main: com.pepsidev.pepsiinventory.Pepsi
+authors:
+  - lRusian (rAK47)
+website: www.pepsidev.com
+
+commands:
+  inventory:
+    aliases:
+      - inv
+      - inventario
+
